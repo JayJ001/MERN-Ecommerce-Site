@@ -1,0 +1,44 @@
+.item-display{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 0.2px solid #333;
+}
+
+.item-display img{
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+}
+
+.item-display img:hover{
+    cursor: pointer;
+}
+
+.item-display h4:hover{
+    cursor: pointer;
+}
+
+.item-display p{
+    width: 80%;
+}
+
+.item-display p:hover{
+    cursor: pointer;
+}
+
+.item-display button{
+    padding: 8px 8px 8px 8px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(64, 143, 255);
+    color: white;
+}
+
+.item-display button:hover{
+    cursor: pointer;
+}

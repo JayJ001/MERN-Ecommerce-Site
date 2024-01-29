@@ -1,0 +1,32 @@
+.shop-container{
+    margin: 10px 60px 10px 60px;
+}
+
+.selector-container{
+    display:flex;
+    align-items: center;
+    position: relative;
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+.selector-container label{
+    margin-left: 30px;
+}
+
+.selector-container select{
+    margin-left: 5px;
+}
+
+.item-container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.shop-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
